@@ -1,0 +1,137 @@
+.mainRightSide {
+  /* background-color: rgb(196, 40, 40); */
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-align: center;
+  width: 20%;
+  color: rgb(43, 43, 43);
+  font-family: Inter, sans-serif;
+  padding: 0px 2rem;
+  height: 100%;
+
+}
+
+.titleRightSide {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin-top: 2rem;
+  font-family: Inter, sans-serif;
+}
+
+.titleDescriptionRightSide {
+  color: rgb(43, 43, 43);
+  font-weight: 100;
+  margin-top: 0.5rem;
+}
+
+.sectionIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(171, 171, 171);
+
+
+}
+
+svg {
+  font-size: 1rem;
+  margin: auto;
+  color: black;
+}
+
+path:hover {
+  color: white;
+}
+
+svg:hover {
+  color: white;
+}
+
+.circleLink {
+  background-color: orange;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(171, 171, 171);
+
+
+}
+
+.divDetails {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.orangeColor {
+  background-color: orange;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+
+}
+
+.LanguagesTitle {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.linkpercentage {
+  height: 2px;
+  width: 90%;
+  background-color: orange;
+
+
+
+}
+
+.linkpercentage90 {
+  width: 80%;
+  height: 2px;
+  background-color: orange;
+
+}
+
+.Languages {
+  border-bottom: 1px solid rgb(171, 171, 171);
+  padding-bottom: 1rem;
+}
+
+.linkpercentage80 {
+  width: 70%;
+  height: 2px;
+  background-color: orange;
+}
+
+.linkpercentage70 {
+  width: 60%;
+  height: 2px;
+  background-color: orange;
+}
+
+.skills {
+  border-bottom: 1px solid rgb(171, 171, 171);
+  padding-bottom: 1rem;
+}
+
+.scroll {
+  overflow: hidden;
+  /* overflow-y: scroll; */
+  height: 490px;
+  overflow-y: auto;
+  transition: all 400ms ease-in 0s;
+
+}
