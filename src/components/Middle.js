@@ -119,6 +119,59 @@ function Middle() {
           </div>
         </div>
       </div>
+      <div className="eductionMiddle">
+        <h1 className="titleSkillsMiddle">Eduction</h1>
+        <div className="allEductionMiddle">
+          <div className="eduction1">
+            <div className="leftEduction">
+              <h1 className="titleEduction">
+                Full Stack Web Development, FlashDev
+              </h1>
+              <p className="title2Eduction1">Jan 2021 – Dec 2021</p>
+            </div>
+            <div className="contactMiddle">
+              , Israel Developers Institute, RG Coding , Israel Developers
+              Institute, RG Coding
+            </div>
+          </div>
+          <div className="eduction1">
+            <div className="leftEduction">
+              <h1 className="titleEduction">
+                Full Stack Web Development,JavaScript program , Developers
+                Institute
+              </h1>
+              <p className="title2Eduction1">Jan 2022 – Dec 2022</p>
+            </div>
+            <div className="contactMiddle">
+              Tel Aviv, Israel Developers Institute, TLV Coding Bootcamp 2021
+            </div>
+          </div>
+          <div>
+            <div className="eduction1">
+              <div className="leftEduction">
+                <h1 className="titleEduction">
+                  Paramedics course in emergency medicine
+                </h1>
+                <p className="title2Eduction">Jan 2019 – Dec 2019</p>
+              </div>
+              <div className="contactMiddle">
+                , Israel Magen David Adom 2019 , Israel Magen David Adom 2019
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="eduction1">
+              <div className="leftEduction">
+                <h1 className="titleEduction">
+                  SEO - search engine optimization Online{" "}
+                </h1>
+                <p className="title2Eduction">Jan 2018 – Dec 2018</p>
+              </div>
+              <div className="contactMiddle">, Israel Ran Magal 201</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -78,7 +78,7 @@
   font-family: Inter, sans-serif;
   font-weight: 300;
   padding: 1rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(43, 43, 43);
 }
 
@@ -124,8 +124,9 @@
 .grinProjectsMiddle {
   display: grid;
   grid-template-columns: repeat(3, 15em);
-  grid-template-rows: repeat(3, 15em);
-  gap: 3rem
+  grid-template-rows: repeat(2, 15em);
+  gap: 3rem;
+  margin-bottom: 8rem;
 }
 
 .projectMiddle {
@@ -176,4 +177,51 @@
 
 .buttonCode:hover {
   cursor: pointer;
+}
+
+.allEductionMiddle {
+  background-color: white;
+  padding: 2rem 0.3rem;
+}
+
+.eduction1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+}
+
+.leftEduction {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.titleEduction {
+  font-size: 1.2rem;
+  font-family: Inter, sans-serif;
+}
+
+.title2Eduction {
+  background-color: orange;
+  color: white;
+  width: 30%;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 0.2em 0.5em;
+}
+
+.title2Eduction1 {
+  background-color: orange;
+  color: white;
+  width: 7.5rem;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 0.2em 0.7em;
+}
+
+.contactMiddle {
+  text-align: left;
 }
