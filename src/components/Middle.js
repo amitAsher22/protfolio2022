@@ -4,6 +4,9 @@ import "../css/middle.css";
 // icont react
 import { FcPhone } from "react-icons/fc";
 import { MdOutlineEmail } from "react-icons/md";
+import { FcFeedback } from "react-icons/fc";
+import { FcPhoneAndroid } from "react-icons/fc";
+import { FcHome } from "react-icons/fc";
 /// img
 import img from "../images/me.png";
 import BitBucket from "../images/BitBucket.png";
@@ -18,6 +21,9 @@ import Redux from "../images/Redux.png";
 import sass from "../images/SASS.png";
 import vue from "../images/vue.png";
 import vuex from "../images/vuex.png";
+import fc from "../images/fc.png";
+import linkdinic from "../images/linkdinic.png";
+import igithub from "../images/igithub.png";
 
 function Middle() {
   return (
@@ -29,8 +35,8 @@ function Middle() {
             <span className="textColorMiddle">Front – End</span> Developer
           </h1>
           <p>
-            Full Stack Developer experienced in JavaScript based programming
-            with a background in frontend and backend development. Independent
+            Front End Developer experienced in JavaScript based programming with
+            a background in frontend and backend development. Independent
             learner, and team worker. Determined hard worker and
             solution-oriented. Experience with ensuring applications security
             and ability to interact with API and DataBases.
@@ -168,6 +174,36 @@ function Middle() {
                 <p className="title2Eduction">Jan 2018 – Dec 2018</p>
               </div>
               <div className="contactMiddle">, Israel Ran Magal 201</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="contactMiddle">
+        <h1 className="titleSkillsMiddle">Contact</h1>
+        <div className="mainContact">
+          <div className="socialMedia">
+            <div>
+              <FcFeedback className="iconMiddle" />
+              <h2 className="text1">AmitAsher4@gmail.com</h2>
+            </div>
+            <div>
+              <FcPhoneAndroid className="iconMiddle" />
+              <h2 className="text1">0523157737</h2>
+            </div>
+            <div>
+              <FcHome className="iconMiddle" />
+              <h2 className="text1">Herzeliya</h2>
+            </div>
+          </div>
+          <div className="collectionIcons">
+            <div>
+              <img src={fc} alt="fc" width="74%" />
+            </div>
+            <div>
+              <img src={igithub} alt="icongi" />
+            </div>
+            <div>
+              <img src={linkdinic} alt="iconpng" />
             </div>
           </div>
         </div>

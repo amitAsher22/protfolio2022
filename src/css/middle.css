@@ -225,3 +225,32 @@
 .contactMiddle {
   text-align: left;
 }
+
+.mainContact {
+  background-color: white;
+  padding: 2rem 0.3rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  text-align: center;
+}
+
+.iconMiddle {
+  font-size: 2rem;
+}
+
+.text1 {
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+}
+
+.collectionIcons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 3rem;
+  margin: auto;
+}
