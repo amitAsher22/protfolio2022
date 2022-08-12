@@ -102,8 +102,8 @@ function RightSide() {
             </div>
             <hr className="linkpercentage80" />
             <div className="divDetails">
-              <span>Redux Toolkit :</span>
-              <span>70%</span>
+              <span>Redux Toolkit+Redux :</span>
+              <span>80%</span>
             </div>
             <hr className="linkpercentage70" />
             <div className="divDetails">
@@ -112,8 +112,12 @@ function RightSide() {
             </div>
             <hr className="linkpercentage90" />
           </div>
-          <div>
+          <div className="Skills">
             <p className="LanguagesTitle">Extra Skills</p>
+            <div className="allSkillsRight">
+              <span>Node.js ,PostgreSQL , Firebase</span>
+              <span> ,Ubuntu ,Heroku ,AJAX ,Jira</span>
+            </div>
           </div>
         </div>
       </div>

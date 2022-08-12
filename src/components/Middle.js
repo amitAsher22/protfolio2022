@@ -182,11 +182,21 @@ function Middle() {
         <h1 className="titleSkillsMiddle">Contact</h1>
         <div className="mainContact">
           <div className="socialMedia">
-            <div>
+            <div
+              onClick={() => {
+                window.open("mailto:amitasher4@gmail.com");
+              }}
+              className="emailI"
+            >
               <FcFeedback className="iconMiddle" />
               <h2 className="text1">AmitAsher4@gmail.com</h2>
             </div>
-            <div>
+            <div
+              onClick={() => {
+                window.open("tel:+972523157737");
+              }}
+              className="emailI"
+            >
               <FcPhoneAndroid className="iconMiddle" />
               <h2 className="text1">0523157737</h2>
             </div>

@@ -3,7 +3,11 @@
   width: 70%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  /* padding: 1rem; */
+  /* overflow: hidden; */
+  overflow-y: scroll;
+  height: 650px;
+  /* overflow-y: auto; */
 }
 
 .section1Middle {
@@ -156,6 +160,10 @@
 
 }
 
+.card {
+  position: relative;
+}
+
 .card:hover .intro {
   display: block;
   display: flex;
@@ -163,6 +171,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  z-index: 99999;
 
 }
 
@@ -181,7 +190,8 @@
 
 .allEductionMiddle {
   background-color: white;
-  padding: 2rem 0.3rem;
+  padding: 2rem 0.6rem;
+  margin: 1rem;
 }
 
 .eduction1 {
@@ -229,6 +239,7 @@
 .mainContact {
   background-color: white;
   padding: 2rem 0.3rem;
+  margin: 1rem;
 }
 
 .socialMedia {
@@ -253,4 +264,8 @@
   gap: 3rem;
   padding-top: 3rem;
   margin: auto;
+}
+
+.emailI:hover {
+  cursor: pointer;
 }
