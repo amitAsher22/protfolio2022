@@ -1,3 +1,10 @@
+.dark {
+  --text-primary: white;
+  --app-background: black;
+  --color-title: rgb(43, 43, 43)
+}
+
+
 .mainMiddle {
   background-color: rgb(240, 240, 246);
   width: 70%;
@@ -6,8 +13,11 @@
   /* padding: 1rem; */
   /* overflow: hidden; */
   overflow-y: scroll;
-  height: 650px;
-  /* overflow-y: auto; */
+  height: 100vh;
+  background-color: var(--app-background);
+  color: var(--text-primary);
+  transition: .5s all
+    /* overflow-y: auto; */
 }
 
 .section1Middle {
@@ -34,6 +44,8 @@
   color: rgb(43, 43, 43);
   font-weight: 700;
   font-family: Inter, sans-serif;
+  color: var(--text-primary);
+  transition: .5s all
 }
 
 .textColorMiddle {
@@ -83,7 +95,7 @@
   font-weight: 300;
   padding: 1rem;
   font-size: 3rem;
-  color: rgb(43, 43, 43);
+  color: var(--text-primary)
 }
 
 .divImgMiddle {
@@ -189,7 +201,9 @@
 }
 
 .allEductionMiddle {
-  background-color: white;
+  background-color: var(--app-background);
+  color: var(--text);
+  transition: .5s all;
   padding: 2rem 0.6rem;
   margin: 1rem;
 }
@@ -240,6 +254,9 @@
   background-color: white;
   padding: 2rem 0.3rem;
   margin: 1rem;
+  color: (--text);
+  background-color: var(--app-background);
+  transition: .5s all
 }
 
 .socialMedia {
@@ -256,6 +273,9 @@
 .text1 {
   font-family: Inter, sans-serif;
   font-weight: 300;
+  color: (--text);
+  background-color: var(--app-background);
+  transition: .5s all
 }
 
 .collectionIcons {

@@ -1,6 +1,18 @@
 .mainLeftSide {
-  background-color: rgb(40, 196, 131);
+
   float: left;
   width: 10%;
+  display: relative;
+  margin: auto;
 
+
+}
+
+.modeDiv {
+  display: absolute;
+  text-align: center;
+}
+
+.positionLight {
+  font-size: 3rem;
 }

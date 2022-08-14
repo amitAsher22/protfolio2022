@@ -11,7 +11,7 @@ import img from "../images/me.png";
 function RightSide() {
   return (
     <div className="mainRightSide">
-      <Avatar src={img} alt="me" size="90%" round={true} />
+      <Avatar src={img} alt="me" size="90%" height="80%" round={true} />
       <a className="titleRightSide">Amit Asher</a>
       <h5 className="titleDescriptionRightSide">Front End Developer</h5>
       <div className="sectionIcons">

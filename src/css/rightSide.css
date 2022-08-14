@@ -1,15 +1,23 @@
+.dark {
+  --text-primary: white;
+  --app-background: black;
+}
+
 .mainRightSide {
   /* background-color: rgb(196, 40, 40); */
   display: flex;
   flex-direction: column;
+
   float: left;
   text-align: center;
   width: 20%;
   color: rgb(43, 43, 43);
   font-family: Inter, sans-serif;
   padding: 0px 2rem;
-  height: 100%;
-
+  height: 100vh;
+  color: var(--text-primary);
+  background-color: var(--app-background);
+  transition: .5s all
 }
 
 .titleRightSide {
@@ -21,9 +29,11 @@
 }
 
 .titleDescriptionRightSide {
-  color: rgb(43, 43, 43);
+
   font-weight: 100;
   margin: 0.5rem;
+  color: (--text);
+  transition: .5s all
 }
 
 .sectionIcons {

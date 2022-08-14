@@ -3,7 +3,7 @@ import React from "react";
 import "../css/middle.css";
 // icont react
 import { FcPhone } from "react-icons/fc";
-import { MdOutlineEmail } from "react-icons/md";
+
 import { FcFeedback } from "react-icons/fc";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { FcHome } from "react-icons/fc";
@@ -43,7 +43,6 @@ function Middle() {
           </p>
           <div className="groupIconsMiddle">
             <FcPhone className="phoneCall" />
-            <MdOutlineEmail className="gmailIconMiddle" />
           </div>
         </div>
         <div className="imgMiddle1">
@@ -206,13 +205,30 @@ function Middle() {
             </div>
           </div>
           <div className="collectionIcons">
-            <div>
+            <div
+              onClick={() => {
+                window.open("https://www.facebook.com/amitasherWebDeveloper");
+              }}
+              className="emailI"
+            >
               <img src={fc} alt="fc" width="74%" />
             </div>
-            <div>
+            <div
+              onClick={() => {
+                window.open("https://github.com/amitAsher22");
+              }}
+              className="emailI"
+            >
               <img src={igithub} alt="icongi" />
             </div>
-            <div>
+            <div
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/amitasherwebdeveloper/"
+                );
+              }}
+              className="emailI"
+            >
               <img src={linkdinic} alt="iconpng" />
             </div>
           </div>
