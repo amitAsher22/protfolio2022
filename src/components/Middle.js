@@ -24,6 +24,9 @@ import vuex from "../images/vuex.png";
 import fc from "../images/fc.png";
 import linkdinic from "../images/linkdinic.png";
 import igithub from "../images/igithub.png";
+import project1 from "../images/project1.png";
+import project2 from "../images/project2.png";
+import project3 from "../images/project3.png";
 
 function Middle() {
   return (
@@ -94,25 +97,63 @@ function Middle() {
         <h1 className="titleSkillsMiddle">Projects</h1>
         <div className="grinProjectsMiddle">
           <div className="card">
-            <img className="projectMiddle" src={React1} alt="project1" />
+            <img className="projectMiddle" src={project1} alt="project1" />
             <div className="intro">
-              <button className="buttonCode">Github Code</button>
-              <button className="buttonCode">View project</button>
+              <button
+                className="buttonCode"
+                onClick={() =>
+                  window.open("https://github.com/amitAsher22/designapp")
+                }
+              >
+                Github Code
+              </button>
+              <button
+                className="buttonCode"
+                onClick={() => window.open("https://designmyapp.netlify.app/")}
+              >
+                View project
+              </button>
             </div>
           </div>
 
           <div className="card">
-            <img className="projectMiddle" src={React1} alt="project1" />
+            <img className="projectMiddle" src={project2} alt="project1" />
             <div className="intro">
-              <button className="buttonCode">Github Code</button>
-              <button className="buttonCode">View project</button>
+              <button
+                className="buttonCode"
+                onClick={() =>
+                  window.open("https://github.com/amitAsher22/buildApp")
+                }
+              >
+                Github Code
+              </button>
+              <button
+                className="buttonCode"
+                onClick={() =>
+                  window.open("https://realeasteamit.netlify.app/")
+                }
+              >
+                View project
+              </button>
             </div>
           </div>
           <div className="card">
-            <img className="projectMiddle" src={React1} alt="project1" />
+            <img className="projectMiddle" src={project3} alt="project1" />
             <div className="intro">
-              <button className="buttonCode">Github Code</button>
-              <button className="buttonCode">View project</button>
+              <button
+                className="buttonCode"
+                onClick={() =>
+                  window.open("https://github.com/amitAsher22/crypto_amit")
+                }
+              >
+                Github Code
+              </button>
+              <button
+                className="buttonCode"
+                onClick={() => window.open("https://cryptoamit.netlify.app/")}
+              >
+                View project
+              </button>
             </div>
           </div>
           <div className="card">
@@ -168,7 +209,7 @@ function Middle() {
             <div className="eduction1">
               <div className="leftEduction">
                 <h1 className="titleEduction">
-                  SEO - search engine optimization Online{" "}
+                  SEO - search engine optimization Online
                 </h1>
                 <p className="title2Eduction">Jan 2018 – Dec 2018</p>
               </div>
